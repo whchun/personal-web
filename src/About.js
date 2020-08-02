@@ -2,20 +2,20 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
 import profilePic from './assets/pic3.jpg';
-import './About.css';
+import './About.scss';
 
 export default class About extends Component {
     render() {
         return(
             <div className="about-container">
-                <div className="about-image">
+                <div className="image">
                     <img src={profilePic} />
                 </div>
-                <div className="about-text">
+                <div>
                     <h1>Wendy H. Chun</h1>
                     <h3>Software Engineer</h3>
                     <br></br>
-                    <div className="about-detail-text">
+                    <div className="detail-text">
                          I am coming from various roles including full-stack, mobile, embedded, and research development.
                         <br></br>
                         I am skilled in Python, C/C++, Java, JavaScript, SQL, and more (TL;DR).
@@ -27,7 +27,7 @@ export default class About extends Component {
                     </div>
                 </div>
                 <p></p>
-                <div className="about-link">
+                <div className="link">
                     <a href="http://www.linkedin.com/in/wendyhchun" target="_blank">
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>

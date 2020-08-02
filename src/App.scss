@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+
+.about-component {
+  display: flex;
+  height: 1024px;
+  flex-direction: column;
+
+  @media only screen and (max-width: 750px) {
+    height: 600px;
+  }
+}

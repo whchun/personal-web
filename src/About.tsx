@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons"
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
 import profilePic from './assets/pic3.jpg';
 import './About.scss';
 
@@ -27,6 +28,9 @@ function About() {
             </div>
             <p></p>
             <div className="link">
+                <a href="mailto:wendyhchun@gmail.com">
+                    <FontAwesomeIcon icon={faEnvelope} />
+                </a>
                 <a href="http://www.linkedin.com/in/wendyhchun" target="_blank">
                     <FontAwesomeIcon icon={faLinkedin} />
                 </a>

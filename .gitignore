@@ -1,4 +1,7 @@
-# See https://help.github.com/ignore-files/ for more about ignoring files.
+# Ignore images in asssets
+/src/assets/*.jpg
+/src/assets/*.jpeg
+/src/assets/*.png
 
 # dependencies
 /node_modules
